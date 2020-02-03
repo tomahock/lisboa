@@ -37,6 +37,12 @@
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
+            .row:before {
+              height: 35px;   /* equal to the header height */
+              margin-top: -35px;  /* negative margin equal to the header height */
+              visibility: hidden;
+              content: "";
+            }
         </style>
         <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
         <link rel="stylesheet" href="css/main.css">
